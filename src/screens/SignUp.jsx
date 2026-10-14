@@ -38,6 +38,7 @@ export default function SignUp() {
           <span className="ml-3 w-px h-[14px] bg-[#FB7632]" />
           <span className="ml-[44px] text-[#292E39]">-</span>
           <input
+            autoFocus
             type="tel"
             inputMode="none"
             maxLength={10}

@@ -58,3 +58,10 @@ body {
 .no-scrollbar {
   scrollbar-width: none;
 }
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+.caret-blink {
+  animation: blink 1s step-end infinite;
+}
